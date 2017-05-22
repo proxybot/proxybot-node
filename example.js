@@ -2,7 +2,6 @@
 const
   Bot = require('./index').Bot;
 
-
 var args = process.argv.slice(2);
 
 if (args.length != 3) {
@@ -14,12 +13,9 @@ var uid = args[0];
 var bid = args[1];
 var sk = args[2];
 
-
 // the callback to be executed when connected
 function onConnect() {
   console.log("Connected!");
-  //client.publish(`server/${uid}:${bid}/create`, JSON.stringify({id: 'test', 'sk': 'test'}));
-  //client.publish(`server/${uid}:${bid}/remove`, JSON.stringify({id: 'test'}));
 }
 
 // the callback to be executed when disconnected
