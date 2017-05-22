@@ -1,0 +1,14 @@
+{
+  "name": "proxybot-node",
+  "version": "1.0.0",
+  "description": "Accept and respond to public requests from any device.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gabriel Garcia",
+  "license": "ISC",
+  "dependencies": {
+    "mqtt": "^2.7.2"
+  }
+}
