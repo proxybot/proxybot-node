@@ -25,6 +25,6 @@ function onRequest(message) {
   console.log("request received:", message.toString());
 }
 
-var bot = new proxybot.Bot(botId, secret, onConnect, onDisconnect, onRequest);
+var bot = new proxybot.Bot(userId, botId, secret, onConnect, onDisconnect, onRequest);
 bot.start();
 ```
